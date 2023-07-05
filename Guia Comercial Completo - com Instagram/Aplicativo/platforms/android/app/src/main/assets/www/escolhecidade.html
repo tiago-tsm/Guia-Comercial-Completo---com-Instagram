@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/framework7.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/materialdesignicons.css">
+        <title>Guia Comercial</title>
+				
+    </head>
+<body>
+    <!-- App root element -->
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="escolhecidade" class="page">
+
+                <div id="NavBarTopoHome" class="navbar no-shadow tema">
+                    <div class="navbar-inner">
+						<div class="left">
+                            <a href="/configuracoes/" class="link icon-only">
+                                <i class="mdi mdi-arrow-left"></i>
+                            </a>
+                        </div>
+                        <div class="title" id="titleApp" ><i class="mdi mdi-city-variant-outline"></i> Cidade</div>
+												
+           			</div>
+                </div>
+
+                                
+
+                <!-- Scrollable page content -->
+                <div class="page-content ">
+                   
+				   <div class="list no-hairlines-md">
+							<ul>
+							<li class="item-content item-input">
+							  <div class="item-media">
+								<i class="mdi mdi-city-variant-outline"></i>
+							  </div>
+							  <div class="item-inner">
+								<div class="item-title item-label">Cidade</div>
+								<div class="item-input-wrap input-dropdown-wrap">
+								  <select id="cidadesListadas" placeholder="Selecione a cidade">
+									
+								  </select>
+								</div>
+							  </div>
+							</li>
+							</ul>
+						 </div>
+
+                </div>
+
+               
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="scripts/framework7.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="scripts/config.js"></script>
+    <script type="text/javascript" src="scripts/jquery.maskMoney.min.js"></script>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <!--<script type="text/javascript" src="scripts/index.js"></script>-->
+</body>
+</html>
